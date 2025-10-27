@@ -1,0 +1,296 @@
+{
+  "columns": [
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "having_IP_Address",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "URL_Length",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Shortining_Service",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "having_At_Symbol",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "double_slash_redirecting",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Prefix_Suffix",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "having_Sub_Domain",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "SSLfinal_State",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Domain_registeration_length",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Favicon",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "port",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "HTTPS_token",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Request_URL",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "URL_of_Anchor",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "Links_in_tags",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "SFH",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Submitting_to_email",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Abnormal_URL",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        0,
+        1
+      ],
+      "name": "Redirect",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "on_mouseover",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "RightClick",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "popUpWidnow",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Iframe",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "age_of_domain",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "DNSRecord",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "web_traffic",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Page_Rank",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Google_Index",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        0,
+        1
+      ],
+      "name": "Links_pointing_to_page",
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "Statistical_report",
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "i2s": [
+        -1,
+        1
+      ],
+      "name": "label",
+      "size": 2,
+      "type": "categorical"
+    }
+  ],
+  "task": "binary_classification",
+  "train_size": 7075,
+  "val_size": 1769,
+  "test_size": 2211,
+  "label": "Result"
+}

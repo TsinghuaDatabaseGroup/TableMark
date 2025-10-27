@@ -1,0 +1,187 @@
+{
+  "columns": [
+    {
+      "name": "Administrative",
+      "min": 0.0,
+      "max": 27.0,
+      "type": "continuous"
+    },
+    {
+      "name": "Administrative_Duration",
+      "min": 0.0,
+      "max": 3398.75,
+      "type": "continuous"
+    },
+    {
+      "name": "Informational",
+      "min": 0.0,
+      "max": 24.0,
+      "type": "continuous"
+    },
+    {
+      "name": "Informational_Duration",
+      "min": 0.0,
+      "max": 2549.375,
+      "type": "continuous"
+    },
+    {
+      "name": "ProductRelated",
+      "min": 0.0,
+      "max": 705.0,
+      "type": "continuous"
+    },
+    {
+      "name": "ProductRelated_Duration",
+      "min": 0.0,
+      "max": 63973.523,
+      "type": "continuous"
+    },
+    {
+      "name": "BounceRates",
+      "min": 0.0,
+      "max": 0.2,
+      "type": "continuous"
+    },
+    {
+      "name": "ExitRates",
+      "min": 0.0,
+      "max": 0.2,
+      "type": "continuous"
+    },
+    {
+      "name": "PageValues",
+      "min": 0.0,
+      "max": 361.76373,
+      "type": "continuous"
+    },
+    {
+      "name": "SpecialDay",
+      "min": 0.0,
+      "max": 1.0,
+      "type": "continuous"
+    },
+    {
+      "name": "Month",
+      "i2s": [
+        "Aug",
+        "Dec",
+        "Feb",
+        "Jul",
+        "June",
+        "Mar",
+        "May",
+        "Nov",
+        "Oct",
+        "Sep"
+      ],
+      "size": 10,
+      "type": "categorical"
+    },
+    {
+      "name": "OperatingSystems",
+      "i2s": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "size": 8,
+      "type": "categorical"
+    },
+    {
+      "name": "Browser",
+      "i2s": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "size": 13,
+      "type": "categorical"
+    },
+    {
+      "name": "Region",
+      "i2s": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "size": 9,
+      "type": "categorical"
+    },
+    {
+      "name": "TrafficType",
+      "i2s": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "size": 20,
+      "type": "categorical"
+    },
+    {
+      "name": "VisitorType",
+      "i2s": [
+        "New_Visitor",
+        "Other",
+        "Returning_Visitor"
+      ],
+      "size": 3,
+      "type": "categorical"
+    },
+    {
+      "name": "Weekend",
+      "i2s": [
+        false,
+        true
+      ],
+      "size": 2,
+      "type": "categorical"
+    },
+    {
+      "name": "Revenue",
+      "i2s": [
+        false,
+        true
+      ],
+      "size": 2,
+      "type": "categorical"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "columns": [
+    {
+      "name": "year",
+      "i2s": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "size": 5,
+      "type": "categorical"
+    },
+    {
+      "name": "month",
+      "i2s": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "size": 12,
+      "type": "categorical"
+    },
+    {
+      "name": "day",
+      "i2s": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "size": 31,
+      "type": "categorical"
+    },
+    {
+      "name": "hour",
+      "i2s": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "size": 24,
+      "type": "categorical"
+    },
+    {
+      "name": "pm2.5",
+      "min": 0.0,
+      "max": 994.0,
+      "type": "continuous"
+    },
+    {
+      "name": "DEWP",
+      "min": -40.0,
+      "max": 28.0,
+      "type": "continuous"
+    },
+    {
+      "name": "TEMP",
+      "min": -19.0,
+      "max": 42.0,
+      "type": "continuous"
+    },
+    {
+      "name": "PRES",
+      "min": 991.0,
+      "max": 1046.0,
+      "type": "continuous"
+    },
+    {
+      "name": "cbwd",
+      "i2s": [
+        "NE",
+        "NW",
+        "SE",
+        "cv"
+      ],
+      "size": 4,
+      "type": "categorical"
+    },
+    {
+      "name": "Iws",
+      "min": 0.45,
+      "max": 565.49,
+      "type": "continuous"
+    },
+    {
+      "name": "Is",
+      "min": 0.0,
+      "max": 27.0,
+      "type": "continuous"
+    },
+    {
+      "name": "Ir",
+      "min": 0.0,
+      "max": 36.0,
+      "type": "continuous"
+    }
+  ]
+}
